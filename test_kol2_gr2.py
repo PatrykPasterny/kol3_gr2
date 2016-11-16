@@ -28,3 +28,4 @@ class test_Szkola(unittest.TestCase):
 		self.assertEqual()
 		
 		
+#TEST OD GOLEBIKROL
