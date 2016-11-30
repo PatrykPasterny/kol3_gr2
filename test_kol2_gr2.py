@@ -24,8 +24,9 @@ class test_Szkola(unittest.TestCase):
 	
 	def test_get_attendance_in_school(self):
 		self.asserEqual(53,self.Szkola.get_attendance())	
-			
+
+if __name__ == "__main__":
+    unittest.main()			
 		
 #TEST OD GOLEBIKROL
-###POPRAWA###
-"""MINIMUM 12-14 testow"""
+
