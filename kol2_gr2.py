@@ -32,7 +32,7 @@ class Szkola(object):
 	def get_totalaverageinclass(self,klasa):
 		suma=0
 		n=0
-		for j in self.classes[klasa-1].students:
+		for j in klasa.students:
 			
 			suma+=sum(j.scores)
 			n+=len(j.scores)
@@ -77,8 +77,8 @@ def main():
 	
 
 	print S.get_totalaverage()
-	print S.get_totalaverageinclass(1)
-	print S.get_totalaverageinclass(2)
+	print S.get_totalaverageinclass(k1)
+	print S.get_totalaverageinclass(k2)
 	print str(S.get_attendance())+"%" # in %
 
 
